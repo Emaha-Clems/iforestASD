@@ -1,0 +1,30 @@
+ui: # user interface
+  axis_font_color: "#222"
+
+inference_api:
+  host: localhost
+  port: 5001
+  endpoint: /run-inference 
+
+data_manager:
+  raw_data_folder: './data/raw_data/PSM'
+  prod_data_folder: './data/prod_data/PSM'
+  raw_database_test_name: 'test.csv'
+  raw_database_label_name: 'test_label.csv'
+  prod_database_name: 'test.csv'
+  
+
+pipeline_runner:
+  first_point_index: 30
+  time_increment: '1s' 
+
+preprocessing:
+  drop_columns: ['timestamp_(min)']
+
+iforestASD_params:
+  window_size: 20
+  decision_threshold: 0.99
+  calibration_window: 30
+  initial_window_X : 30
+ 
+ 

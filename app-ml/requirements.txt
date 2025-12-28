@@ -1,0 +1,19 @@
+# iforestASD
+pysad==0.3.4
+scikit-learn==1.5.2
+scipy==1.13.1
+pyod==2.0.5
+combo==0.1.3
+
+# Core Data & Config
+numpy==1.26.4
+pandas==2.2.2
+pyyaml==6.0.2
+
+# Plotting
+plotly==6.1.2
+
+# API & Web Services
+flask==3.0.2
+flask-cors==4.0.0
+
