@@ -25,7 +25,7 @@
 ### Dataset
 This repository contains the first 2,000 rows of the **PSM dataset** (`test.csv`).
 
-### iForestASD (iForest for Anomaly Detection in streaming data)
+### iForestASD Implementation
 The iForestASD algorithm is implemented using the `pysad` package.
 
 ---
